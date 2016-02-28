@@ -1,0 +1,15 @@
+{
+    "name": "spacehexagon.shiny-colorful-theme",
+    "title": "My Shiny & Colorful Theme",
+    "description": "This theme appears so differently through each of your eyes, you'll swear it's shiny ;)",
+    "homepage": "https://github.com/SpaceHexagon/shiny-colorful-theme",
+    "version": "1.0.0",
+    "author": "Jeremy Evans <openspacehexagon@gmail.com> (https://spacehexagon.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "style.less",
+        "dark": false,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}

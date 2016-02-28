@@ -1,0 +1,53 @@
+@neonmagenta: #ff00ff;
+@neongreen: #f46aff;
+@sunshine: #ffa700;
+@saucy: #ff00A0;
+@thenight: #5833c6;
+@dark: #333;
+@med: #777;
+@light: #ccc;
+@bright: #d0d0d0;
+
+.CodeMirror, .CodeMirror-scroll {
+        background-color: #FFFFFF !important;
+//    background-image: -webkit-radial-gradient(circle,#FFF, #ACACAC) !important;
+//    background-image: -moz-radial-gradient(circle,#FFFFFF, #ACACAC) !important;
+//    background-image: radial-gradient(circle,#f3f3f3, #DCDCDC) !important;
+    color: @med;
+}
+
+.cm-property {
+    color: @neonmagenta;
+}
+
+.cm-attribute, .cm-plus { color: @dark; }
+.cm-number { color: @saucy; }
+.cm-variable, .cm-variable-3, .cm-meta { color: @thenight; }
+.cm-variable-2 { color: @sunshine; }
+.cm-bracket {
+    color: @med;
+}
+.cm-tag {
+    color: @med;
+}
+
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-quote { }
+.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: @saucy !important;}
+.cm-operator { color: @med; }
+.cm-comment { color: @bright;}
+
+.cm-m-css { }
+.cm-m-javascript { }
+.cm-m-xml { }
+.cm-m-clike {
+
+}
+
+//.cm-number, .cm-attribute, .cm-plus {color: @dark;}
+//.cm-def, .cm-property {color: @neongreen;}
+
+
+//.cm-error, .cm-minus {color: #dc322f;}
+//.cm-header {color: #d85896;}
+//.cm-link {color: @pinkpurple; text-decoration: none;}
+//.cm-rangeinfo {color: #656de8;}
